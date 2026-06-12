@@ -6,10 +6,10 @@ import { api } from './api.js'
 import './App.css'
 
 const SUGGESTIONS = [
-  { icon: '💡', text: 'Explain a concept simply' },
-  { icon: '🛠️', text: 'Help me debug my code' },
-  { icon: '✍️', text: 'Write something creative' },
-  { icon: '📊', text: 'Analyse data or ideas' },
+  { icon: '🧠', text: 'Explain a complex concept' },
+  { icon: '⚡', text: 'Solve a technical problem' },
+  { icon: '🌱', text: 'Guide my learning path' },
+  { icon: '📖', text: 'Share deep knowledge' },
 ]
 
 export default function App() {
@@ -157,9 +157,9 @@ export default function App() {
         {isEmpty ? (
           <div className="empty-state">
             <div className="empty-glow" />
-            <div className="empty-logo">✦</div>
-            <h2 className="empty-title">What can I help with?</h2>
-            <p className="empty-sub">Powered by GPT-4o mini · Your conversations stay in session</p>
+            <div className="empty-logo">✺</div>
+            <h2 className="empty-title">What wisdom do you seek?</h2>
+            <p className="empty-sub">Your AI guide to knowledge · Ask anything, learn everything</p>
             <div className="suggestions">
               {SUGGESTIONS.map(s => (
                 <button key={s.text} className="suggestion-chip" onClick={() => sendMessage(s.text)}>

@@ -105,7 +105,7 @@
 
 .suggestion-chip:hover {
   background: var(--accent-dim);
-  border-color: rgba(124, 106, 247, 0.35);
+  border-color: rgba(212, 137, 42, 0.4);
   color: var(--text);
   transform: translateY(-2px);
 }

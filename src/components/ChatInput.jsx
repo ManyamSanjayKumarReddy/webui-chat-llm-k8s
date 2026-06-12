@@ -38,7 +38,7 @@ export default function ChatInput({ onSend, disabled }) {
           value={text}
           onChange={e => setText(e.target.value)}
           onKeyDown={handleKeyDown}
-          placeholder="Message LLM Chat…"
+          placeholder="Ask the Guru…"
           rows={1}
           disabled={disabled}
         />

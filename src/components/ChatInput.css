@@ -17,12 +17,12 @@
 }
 
 .input-box--active {
-  border-color: rgba(124, 106, 247, 0.4);
+  border-color: rgba(212, 137, 42, 0.45);
   box-shadow: 0 0 0 3px var(--accent-dim);
 }
 
 .input-box:focus-within {
-  border-color: rgba(124, 106, 247, 0.45);
+  border-color: rgba(212, 137, 42, 0.5);
   box-shadow: 0 0 0 3px var(--accent-dim);
 }
 

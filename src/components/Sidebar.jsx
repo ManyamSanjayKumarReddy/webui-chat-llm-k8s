@@ -18,8 +18,8 @@ export default function Sidebar({ sessions = [], activeId, onSelect, onNew, onDe
     <aside className="sidebar">
       <div className="sidebar-header">
         <div className="sidebar-logo">
-          <span className="logo-mark">✦</span>
-          <span className="logo-text">LLM Chat</span>
+          <span className="logo-mark">✺</span>
+          <span className="logo-text">Skilled Guru</span>
         </div>
         <button className="new-btn" onClick={onNew} title="New chat">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
@@ -72,7 +72,7 @@ export default function Sidebar({ sessions = [], activeId, onSelect, onNew, onDe
       <div className="sidebar-footer">
         <div className="footer-model">
           <span className="model-dot" />
-          GPT-4o mini
+          Skilled Guru AI
         </div>
       </div>
     </aside>

@@ -64,7 +64,7 @@
 
 .new-btn:hover {
   background: var(--accent-dim);
-  border-color: rgba(124, 106, 247, 0.3);
+  border-color: rgba(212, 137, 42, 0.35);
   color: var(--accent-2);
   transform: scale(1.05);
 }
@@ -120,7 +120,7 @@
 
 .session-item.active {
   background: var(--accent-dim);
-  border-color: rgba(124, 106, 247, 0.25);
+  border-color: rgba(212, 137, 42, 0.3);
 }
 
 .session-item.active .session-title {
@@ -206,8 +206,8 @@
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #34d399;
-  box-shadow: 0 0 6px #34d399;
+  background: var(--accent-2);
+  box-shadow: 0 0 6px var(--accent-glow);
   animation: blink 2.5s ease-in-out infinite;
 }
 

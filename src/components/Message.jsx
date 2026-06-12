@@ -12,7 +12,7 @@ export default function Message({ role, content, isStreaming, index }) {
       style={{ animationDelay: `${Math.min(index * 0.04, 0.3)}s` }}
     >
       {!isUser && (
-        <div className="msg-avatar msg-avatar--bot">✦</div>
+        <div className="msg-avatar msg-avatar--bot">✺</div>
       )}
 
       <div className={`msg-bubble ${isUser ? 'msg-bubble--user' : 'msg-bubble--assistant'}`}>
