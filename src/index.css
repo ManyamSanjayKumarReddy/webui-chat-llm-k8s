@@ -1,0 +1,43 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg:          #0c0c0f;
+  --surface:     #111116;
+  --surface-2:   #18181f;
+  --surface-3:   #202028;
+  --border:      rgba(255, 255, 255, 0.07);
+  --border-2:    rgba(255, 255, 255, 0.12);
+  --accent:      #7c6af7;
+  --accent-2:    #9d8ff9;
+  --accent-dim:  rgba(124, 106, 247, 0.14);
+  --accent-glow: rgba(124, 106, 247, 0.25);
+  --text:        #eeeef2;
+  --text-2:      #9999b0;
+  --text-3:      #55556a;
+  --red:         #f87171;
+}
+
+body {
+  font-family: 'Space Grotesk', -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  height: 100vh;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--surface-3); border-radius: 4px; }
+
+button { font-family: 'Space Grotesk', sans-serif; }
+textarea { font-family: 'Space Grotesk', sans-serif; }
